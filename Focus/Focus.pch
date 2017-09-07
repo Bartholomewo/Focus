@@ -1,0 +1,18 @@
+//
+//  Focus.pch
+//  Focus
+//
+//  Created by 赵恒 on 2017/9/7.
+//  Copyright © 2017年 Bartholomew. All rights reserved.
+//
+
+#ifndef Focus_pch
+#define Focus_pch
+
+#define kMainColor @"#00A0B0"
+#define kDEGREES(degrees)  ((3.14159265359f * degrees)/ 180.f)
+
+#import <Maker/Maker.h>
+#import <Masonry/Masonry.h>
+
+#endif /* Focus_pch */
