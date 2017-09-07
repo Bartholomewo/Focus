@@ -28,7 +28,16 @@
 
 
 @interface BezierView: UIView
+@property (nonatomic, strong) NSTimer *bTimer;
 
+/**
+ 绘制圆圈
+ */
 - (void) drawCircle;
+
+/**
+ 启动定时器
+ */
+- (void) startTheTimer;
 
 @end
